@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
+n = abs(number)%10
 if number < 0:
-    n = -number % 10
     n = -n
 else:
     n = number % 10
