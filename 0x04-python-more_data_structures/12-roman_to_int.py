@@ -30,4 +30,4 @@ def roman_to_int(roman_string):
             if (roman_string[i - 1] == 'C' and i != 0):
                 value -= 200
             value += 1000
-            return (value)
+    return (value)
