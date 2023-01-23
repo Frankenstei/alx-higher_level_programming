@@ -7,6 +7,6 @@ def safe_print_list_integers(my_list=[], x=0):
             print("{:d}".format(my_list[i]), end="")
             no_of_elements = no_of_elements + 1
         except (ValueError, IndexError, TypeError):
-            continue
-        print("")
+            pass
+    print("")
     return (no_of_elements)
