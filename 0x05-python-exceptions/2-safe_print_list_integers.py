@@ -8,4 +8,5 @@ def safe_print_list_integers(my_list=[], x=0):
             no_of_elements += 1
         except (ValueError, IndexError):
             continue
+    print("")
     return (no_of_elements)
