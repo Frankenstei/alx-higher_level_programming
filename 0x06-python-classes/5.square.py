@@ -4,7 +4,7 @@
 class Square:
     """square class"""
 
-    def __init__(self, size=0):
+    def __init__(self, size):
         """initializing size:
 
         Args:
@@ -16,6 +16,7 @@ class Square:
         def size(self):
             """Getter and setter"""
             return (self.__size)
+
         @size.setter
         def size(self, value):
             if not isinstance(size, int):
@@ -23,9 +24,11 @@ class Square:
             elif size < 0:
                 raise ValueError("size must be >= 0")
             self.__size = value
+
         def area(self):
             """ return area """
             return (self.__size * self.__size)
+        
         def my_print(self):
             """ prints # squares """
             for i in range(0, self.__size):
