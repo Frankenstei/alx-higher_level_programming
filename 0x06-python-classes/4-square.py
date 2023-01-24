@@ -3,13 +3,14 @@
 
 class Square:
     """square class"""
+
     def __init__(self, size=0):
         """initializing size:
 
         Args:
           size(int): must be integer
         """
-        self.__size = size
+        self.size = size
 
         @property
         def size(self):
