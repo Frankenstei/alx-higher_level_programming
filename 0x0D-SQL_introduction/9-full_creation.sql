@@ -1,5 +1,5 @@
 -- creates another table
-CREATE table IF NOT EXISTS second_table(
+CREATE table IF NOT EXISTS FROM second_table(
 	id INT,
 	name VARCHAR(256),
 	score INT
