@@ -1,3 +1,4 @@
+-- top city
 SELECT city, AVG(value) AS avg_temp
 FROM temperatures
 WHERE month
